@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/esbuild --bundle --target=es2016 --platform=browser --outfile=public/index.js src/index.ts"
+    "build": ""
   },
   "author": "",
   "license": "ISC",
