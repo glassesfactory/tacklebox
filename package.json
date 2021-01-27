@@ -1,0 +1,32 @@
+{
+  "name": "tacklebox",
+  "version": "1.0.0",
+  "description": "tacklebox",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "tsc": "./node_modules/.bin/tsc --target ESNext --skipLibCheck",
+    "build": "./node_modules/.bin/esbuild --minify --bundle --platform=node --outfile=tacklebox.js src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glassesfactory/tacklebox.git"
+  },
+  "keywords": [
+    "queue",
+    "fetch"
+  ],
+  "author": "Yamaguchi Eikichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glassesfactory/tacklebox/issues"
+  },
+  "homepage": "https://github.com/glassesfactory/tacklebox#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "esbuild": "^0.8.34",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}

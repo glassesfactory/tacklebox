@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2019",
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "tacklebox-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild --bundle --target=es2016 --platform=browser --outfile=public/index.js src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.8.36",
+    "express": "^4.17.1"
+  }
+}
