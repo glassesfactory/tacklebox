@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": ""
+    "build": "./node_modules/.bin/esbuild --bundle --outfile=index.js queue/index.ts"
   },
   "author": "",
   "license": "ISC",

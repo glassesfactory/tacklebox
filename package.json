@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf ./dist/*",
     "tsc": "./node_modules/.bin/tsc --target ESNext --skipLibCheck",
-    "build": "./node_modules/.bin/esbuild --minify --bundle --platform=node --outfile=tacklebox.js src/index.ts"
+    "build": "./node_modules/.bin/esbuild --minify --bundle --platform=node --outfile=tacklebox.js src/index.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
